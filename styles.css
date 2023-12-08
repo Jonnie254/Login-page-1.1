@@ -6,7 +6,7 @@ html{
     height: 100px;
 }
 body{
-    height: 100px;
+    height: 100;
     display:grid;
     place-items:center;
     margin:0;
@@ -26,12 +26,36 @@ body{
 }
 .circle::after{
     content:"";
-    position:inherit;
+    position: inherit;
     right:-50vmin;
     bottom:-55vmin;
     width:inherit;
     height:inherit;
     border-radius:inherit;
     background:#143d81;
+}
+.card{
+    overflow:hidden;
+    position:relative;
+    z-index:3;
+    width:100%;
+    margin: 0 20px;
+    padding: 160px 30px 38px;
+    border-radius:1.25rem;
+    background:#fff;
+    text-align:center;
+    box-shadow:0 100px 100px rgb(0 0 0 / 10%);
+}
+.card::before{
+    content:"";
+    position:absolute;
+    background:#216ce7;
+    top:-880px;
+    left:50%;
+    width: 1000px;
+    height:1000px;
+    border-radius:50%;
+    translate:-50% 0;
+
 
 }
