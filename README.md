@@ -1,7 +1,8 @@
 # A Login Page
 
-A minimalist login page template designed with HTML and CSS
+A minimalist login page template designed with HTML and CSS<br>
 https://jonnie254.github.io/Login-page-1.1/
+
 
 ## Table of Contents
 
@@ -13,7 +14,6 @@ https://jonnie254.github.io/Login-page-1.1/
 A login Page that is done using modern UI.
 
 ## Features
-
 
 - Responsive layout
 - Clean and modern design
