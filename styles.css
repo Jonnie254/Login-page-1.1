@@ -132,6 +132,15 @@ body{
 }
 .card>footer>a:hover{
     color:#143d81;
+}
+@media  (width>=500px){
+    body{
+        padding:0;
+    }
+    .card{
+        margin:0;
+        width: 360px;
+    }
 
 }
-
+    
